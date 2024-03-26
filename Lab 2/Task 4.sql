@@ -5,5 +5,6 @@
 select "JobTitle"
 from "HumanResources"."Employee"
 where "Gender" = 'M'
+  and "JobTitle" is not null
 GROUP BY "JobTitle"
 HAVING COUNT(*) > 2;
