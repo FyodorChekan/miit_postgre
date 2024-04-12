@@ -3,5 +3,5 @@ create table "currency"
 (
     "ID"            int,
     "Name"          varchar(40),
-    "Exchange_Rate" numeric(2, 4)
+    "Exchange_Rate" numeric(6, 4)
 );
